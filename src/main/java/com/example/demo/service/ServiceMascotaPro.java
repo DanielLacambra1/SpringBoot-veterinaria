@@ -1,0 +1,28 @@
+package com.example.demo.service;
+
+import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.model.Mascota;
+import com.example.demo.repository.RepositoryMascota;
+
+@Profile("Pro")
+@Service
+public class ServiceMascotaPro implements ServiceMascota{
+
+	Logger l = org.apache.logging.log4j.LogManager.getLogger();
+
+	@Autowired
+	@Qualifier("list")
+	public RepositoryMascota repository;
+	
+	@Override
+	public void guardar(Mascota mascota) {
+		l.info("guardando mascota en PRODUCCION");
+		repository.save(mascota);
+	}
+
+}
