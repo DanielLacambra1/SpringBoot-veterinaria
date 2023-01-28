@@ -6,23 +6,23 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.model.Mascota;
-import com.example.demo.repository.RepositoryMascota;
+import com.example.demo.model.Dueño;
+import com.example.demo.repository.RepositoryDueño;
 
 @Profile("Pro")
 @Service
-public class ServiceMascotaPro implements ServiceMascota{
+public class ServiceDueñoPro implements ServiceDueño{
 
 	Logger l = org.apache.logging.log4j.LogManager.getLogger();
 
 	@Autowired
-	@Qualifier("listMascota")
-	public RepositoryMascota repository;
+	@Qualifier("listDueño")
+	public RepositoryDueño repository;
 	
 	@Override
-	public void guardar(Mascota mascota) {
-		l.info("guardando mascota en PRODUCCION");
-		repository.save(mascota);
+	public void guardar(Dueño dueño) {
+		l.info("guardando dueño en PRODUCCION");
+		repository.save(dueño);
 	}
 
 }

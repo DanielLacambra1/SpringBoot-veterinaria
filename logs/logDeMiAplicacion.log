@@ -2005,3 +2005,351 @@ java.lang.IllegalStateException: Neither BindingResult nor plain target object f
 [INFO ] 2023-01-28 11:57:20.768 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 6 ms
 [INFO ] 2023-01-28 11:57:31.228 [http-nio-8080-exec-2] ServiceMascotaPro - guardando mascota en PRODUCCION
 [INFO ] 2023-01-28 11:57:46.757 [http-nio-8080-exec-3] ServiceMascotaPro - guardando mascota en PRODUCCION
+[INFO ] 2023-01-28 12:11:25.721 [restartedMain] DemoApplication - Starting DemoApplication using Java 17.0.5 with PID 116928 (/home/danils/git/clinica-veterinaria-DanielLacambra1/target/classes started by danils in /home/danils/git/clinica-veterinaria-DanielLacambra1)
+[INFO ] 2023-01-28 12:11:25.738 [restartedMain] DemoApplication - The following 1 profile is active: "Pro"
+[INFO ] 2023-01-28 12:11:25.799 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-28 12:11:25.800 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-28 12:11:26.967 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2023-01-28 12:11:26.978 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:11:26.979 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-28 12:11:26.979 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-28 12:11:27.265 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-28 12:11:27.293 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-28 12:11:27.297 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1492 ms
+[INFO ] 2023-01-28 12:11:27.597 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2023-01-28 12:11:27.745 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-28 12:11:27.762 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:11:27.784 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2023-01-28 12:11:27.798 [restartedMain] DemoApplication - Started DemoApplication in 2.667 seconds (process running for 3.502)
+[INFO ] 2023-01-28 12:15:58.958 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-28 12:15:58.959 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-28 12:15:58.961 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-01-28 12:16:07.260 [http-nio-8080-exec-2] ServiceMascotaPro - guardando mascota en PRODUCCION
+[INFO ] 2023-01-28 12:16:27.313 [restartedMain] DemoApplication - Starting DemoApplication using Java 17.0.5 with PID 121459 (/home/danils/git/clinica-veterinaria-DanielLacambra1/target/classes started by danils in /home/danils/git/clinica-veterinaria-DanielLacambra1)
+[INFO ] 2023-01-28 12:16:27.322 [restartedMain] DemoApplication - The following 1 profile is active: "Pro"
+[INFO ] 2023-01-28 12:16:27.390 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-28 12:16:27.390 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-28 12:16:28.632 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2023-01-28 12:16:28.644 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:16:28.645 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-28 12:16:28.646 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-28 12:16:28.865 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-28 12:16:28.877 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-28 12:16:28.879 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1486 ms
+[INFO ] 2023-01-28 12:16:29.131 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[WARN ] 2023-01-28 12:16:29.304 [restartedMain] OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 2023-01-28 12:16:29.318 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 2023-01-28 12:16:29.325 [restartedMain] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO ] 2023-01-28 12:16:29.332 [restartedMain] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:16:29.333 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-01-28 12:16:29.346 [restartedMain] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:16:29.346 [restartedMain] Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:16:29.365 [restartedMain] ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 2023-01-28 12:16:29.397 [restartedMain] SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-6.0.3.jar:6.0.3]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:932) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.1.jar:3.0.1]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:12) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.1.jar:3.0.1]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:44) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-6.0.3.jar:6.0.3]
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:238) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:44) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-6.0.3.jar:6.0.3]
+	... 18 more
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1084) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:234) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:44) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-6.0.3.jar:6.0.3]
+	... 18 more
+Caused by: java.net.BindException: La dirección ya se está usando
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[?:?]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:246) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:201) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1172) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1258) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:586) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1081) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:234) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:44) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-6.0.3.jar:6.0.3]
+	... 18 more
+[INFO ] 2023-01-28 12:17:33.293 [restartedMain] DemoApplication - Starting DemoApplication using Java 17.0.5 with PID 122584 (/home/danils/git/clinica-veterinaria-DanielLacambra1/target/classes started by danils in /home/danils/git/clinica-veterinaria-DanielLacambra1)
+[INFO ] 2023-01-28 12:17:33.299 [restartedMain] DemoApplication - The following 1 profile is active: "Pro"
+[INFO ] 2023-01-28 12:17:33.361 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-28 12:17:33.361 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-28 12:17:34.247 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2023-01-28 12:17:34.256 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:17:34.258 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-28 12:17:34.258 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-28 12:17:34.473 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-28 12:17:34.484 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-28 12:17:34.488 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1122 ms
+[INFO ] 2023-01-28 12:17:34.715 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[WARN ] 2023-01-28 12:17:34.855 [restartedMain] OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 2023-01-28 12:17:34.867 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 2023-01-28 12:17:34.871 [restartedMain] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO ] 2023-01-28 12:17:34.874 [restartedMain] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:17:34.874 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-01-28 12:17:34.894 [restartedMain] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:17:34.895 [restartedMain] Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:17:34.905 [restartedMain] ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 2023-01-28 12:17:34.922 [restartedMain] SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-6.0.3.jar:6.0.3]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:932) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.1.jar:3.0.1]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:12) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.1.jar:3.0.1]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:229) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:44) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-6.0.3.jar:6.0.3]
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:238) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:44) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-6.0.3.jar:6.0.3]
+	... 18 more
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1084) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:234) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:44) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-6.0.3.jar:6.0.3]
+	... 18 more
+Caused by: java.net.BindException: La dirección ya se está usando
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[?:?]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:246) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:201) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1172) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1258) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:586) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1081) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:234) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:282) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:44) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-6.0.3.jar:6.0.3]
+	... 18 more
+[INFO ] 2023-01-28 12:19:28.175 [restartedMain] DemoApplication - Starting DemoApplication using Java 17.0.5 with PID 7069 (/home/danils/git/clinica-veterinaria-DanielLacambra1/target/classes started by danils in /home/danils/git/clinica-veterinaria-DanielLacambra1)
+[INFO ] 2023-01-28 12:19:28.184 [restartedMain] DemoApplication - The following 1 profile is active: "Pro"
+[INFO ] 2023-01-28 12:19:28.294 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-28 12:19:28.294 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-28 12:19:29.679 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2023-01-28 12:19:29.696 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:19:29.699 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-28 12:19:29.700 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-28 12:19:30.091 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-28 12:19:30.108 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-28 12:19:30.110 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1815 ms
+[INFO ] 2023-01-28 12:19:30.394 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2023-01-28 12:19:30.515 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-28 12:19:30.538 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 12:19:30.582 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2023-01-28 12:19:30.592 [restartedMain] DemoApplication - Started DemoApplication in 3.061 seconds (process running for 4.577)
+[INFO ] 2023-01-28 12:20:25.875 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-28 12:20:25.876 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-28 12:20:25.878 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-01-28 12:20:37.966 [http-nio-8080-exec-2] ServiceMascotaPro - guardando mascota en PRODUCCION
+[INFO ] 2023-01-28 19:35:44.691 [restartedMain] DemoApplication - Starting DemoApplication using Java 17.0.5 with PID 14089 (/home/danils/git/clinica-veterinaria-DanielLacambra1/target/classes started by danils in /home/danils/git/clinica-veterinaria-DanielLacambra1)
+[INFO ] 2023-01-28 19:35:44.748 [restartedMain] DemoApplication - The following 1 profile is active: "Pro"
+[INFO ] 2023-01-28 19:35:45.119 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-28 19:35:45.120 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-28 19:35:49.384 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2023-01-28 19:35:49.429 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 19:35:49.430 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-28 19:35:49.431 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-28 19:35:50.204 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-28 19:35:50.232 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-28 19:35:50.237 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5111 ms
+[INFO ] 2023-01-28 19:35:50.731 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2023-01-28 19:35:50.997 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-28 19:35:51.012 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 19:35:51.067 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2023-01-28 19:35:51.087 [restartedMain] DemoApplication - Started DemoApplication in 8.063 seconds (process running for 11.229)
+[INFO ] 2023-01-28 19:35:53.522 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-28 19:35:53.522 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-28 19:35:53.524 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-01-28 19:36:02.867 [http-nio-8080-exec-2] ServiceMascotaPro - guardando mascota en PRODUCCION
+[INFO ] 2023-01-28 20:14:56.112 [restartedMain] DemoApplication - Starting DemoApplication using Java 17.0.5 with PID 50496 (/home/danils/git/clinica-veterinaria-DanielLacambra1/target/classes started by danils in /home/danils/git/clinica-veterinaria-DanielLacambra1)
+[INFO ] 2023-01-28 20:14:56.126 [restartedMain] DemoApplication - The following 1 profile is active: "Pro"
+[INFO ] 2023-01-28 20:14:56.208 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-28 20:14:56.209 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[WARN ] 2023-01-28 20:14:56.384 [restartedMain] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.DemoApplication]
+[ERROR] 2023-01-28 20:14:56.438 [restartedMain] SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.DemoApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:178) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.1.jar:3.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.1.jar:3.0.1]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:12) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.1.jar:3.0.1]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'list' for bean class [com.example.demo.repository.ListRepositoryMascota] conflicts with existing, non-compatible bean definition of same name and class [com.example.demo.repository.ListRepositoryDueño]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196) ~[spring-context-6.0.3.jar:6.0.3]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164) ~[spring-context-6.0.3.jar:6.0.3]
+	... 18 more
+[INFO ] 2023-01-28 20:16:19.938 [restartedMain] DemoApplication - Starting DemoApplication using Java 17.0.5 with PID 51930 (/home/danils/git/clinica-veterinaria-DanielLacambra1/target/classes started by danils in /home/danils/git/clinica-veterinaria-DanielLacambra1)
+[INFO ] 2023-01-28 20:16:19.946 [restartedMain] DemoApplication - The following 1 profile is active: "Pro"
+[INFO ] 2023-01-28 20:16:20.018 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-28 20:16:20.018 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-28 20:16:21.415 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2023-01-28 20:16:21.430 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 20:16:21.431 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-28 20:16:21.432 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-28 20:16:21.809 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-28 20:16:21.824 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-28 20:16:21.828 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1807 ms
+[WARN ] 2023-01-28 20:16:21.926 [restartedMain] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController' defined in file [/home/danils/git/clinica-veterinaria-DanielLacambra1/target/classes/com/example/demo/controller/IndexController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'serviceMascotaPro': Unsatisfied dependency expressed through field 'repository': No qualifying bean of type 'com.example.demo.repository.RepositoryMascota' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier("list")}
+[INFO ] 2023-01-28 20:16:21.929 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-01-28 20:16:21.956 [restartedMain] ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 2023-01-28 20:16:21.981 [restartedMain] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.example.demo.service.ServiceMascotaPro required a bean of type 'com.example.demo.repository.RepositoryMascota' that could not be found.
+
+The following candidates were found but could not be injected:
+	- User-defined bean
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'com.example.demo.repository.RepositoryMascota' in your configuration.
+
+[INFO ] 2023-01-28 20:16:45.879 [restartedMain] DemoApplication - Starting DemoApplication using Java 17.0.5 with PID 52433 (/home/danils/git/clinica-veterinaria-DanielLacambra1/target/classes started by danils in /home/danils/git/clinica-veterinaria-DanielLacambra1)
+[INFO ] 2023-01-28 20:16:45.898 [restartedMain] DemoApplication - The following 1 profile is active: "Pro"
+[INFO ] 2023-01-28 20:16:45.979 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-28 20:16:45.980 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-28 20:16:47.053 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2023-01-28 20:16:47.074 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 20:16:47.076 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-28 20:16:47.078 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-28 20:16:47.378 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-28 20:16:47.390 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-28 20:16:47.391 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1410 ms
+[WARN ] 2023-01-28 20:16:47.471 [restartedMain] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController' defined in file [/home/danils/git/clinica-veterinaria-DanielLacambra1/target/classes/com/example/demo/controller/IndexController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'serviceDueñoPro': Unsatisfied dependency expressed through field 'repository': No qualifying bean of type 'com.example.demo.repository.RepositoryDueño' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier("list")}
+[INFO ] 2023-01-28 20:16:47.473 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-01-28 20:16:47.488 [restartedMain] ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 2023-01-28 20:16:47.510 [restartedMain] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.example.demo.service.ServiceDueñoPro required a bean of type 'com.example.demo.repository.RepositoryDueño' that could not be found.
+
+The following candidates were found but could not be injected:
+	- User-defined bean
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'com.example.demo.repository.RepositoryDueño' in your configuration.
+
+[INFO ] 2023-01-28 20:20:31.332 [restartedMain] DemoApplication - Starting DemoApplication using Java 17.0.5 with PID 56547 (/home/danils/git/clinica-veterinaria-DanielLacambra1/target/classes started by danils in /home/danils/git/clinica-veterinaria-DanielLacambra1)
+[INFO ] 2023-01-28 20:20:31.339 [restartedMain] DemoApplication - The following 1 profile is active: "Pro"
+[INFO ] 2023-01-28 20:20:31.422 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-28 20:20:31.423 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-28 20:20:32.813 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2023-01-28 20:20:32.827 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 20:20:32.828 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-28 20:20:32.828 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+[INFO ] 2023-01-28 20:20:33.130 [restartedMain] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-28 20:20:33.155 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-28 20:20:33.161 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1732 ms
+[INFO ] 2023-01-28 20:20:33.445 [restartedMain] WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2023-01-28 20:20:33.585 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-28 20:20:33.605 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-01-28 20:20:33.646 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2023-01-28 20:20:33.655 [restartedMain] DemoApplication - Started DemoApplication in 2.767 seconds (process running for 4.029)
+[INFO ] 2023-01-28 20:20:36.943 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-28 20:20:36.944 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-28 20:20:36.946 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-01-28 20:20:50.321 [http-nio-8080-exec-2] ServiceDueñoPro - guardando dueño en PRODUCCION
+[INFO ] 2023-01-28 20:21:07.623 [http-nio-8080-exec-4] ServiceMascotaPro - guardando mascota en PRODUCCION

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.demo.model.Mascota;
 
-@Repository("list")
+@Repository("listMascota")
 public class ListRepositoryMascota implements RepositoryMascota  {
 
 	static List<Mascota> list = new ArrayList<>();

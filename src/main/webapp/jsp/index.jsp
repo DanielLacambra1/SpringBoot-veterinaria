@@ -23,5 +23,19 @@
 			
 			<input type="submit"/>
 		</form:form>
+		
+		<br/><br/><br/>
+		
+		<h3>Insertar dueño</h3>
+		<form:form action="addDueñoForm" method="post" modelAttribute="dueño">
+			<span>Nombre:</span>
+			<form:input path="nombre" type="text" name="nombre"/>
+			
+			<span>DNI:</span>
+			<form:input path="dni" type="text" name="dni"/>
+			
+			<input type="submit"/>
+		</form:form>
+		
 	</body>
 </html>
