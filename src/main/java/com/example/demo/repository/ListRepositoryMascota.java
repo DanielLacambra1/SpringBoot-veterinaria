@@ -25,5 +25,13 @@ public class ListRepositoryMascota implements RepositoryMascota  {
 		list.forEach((m) -> System.out.println(m));
 		
 	}
+	
+	// método para listar todas las mascotas
+	public List<Mascota> listAllMascotas(){
+		List<Mascota> lista = list;
+		
+		return lista;
+	}
 
+	
 }

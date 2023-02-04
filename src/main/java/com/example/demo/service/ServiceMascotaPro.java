@@ -1,5 +1,7 @@
 package com.example.demo.service;
 
+import java.util.List;
+
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -23,6 +25,13 @@ public class ServiceMascotaPro implements ServiceMascota{
 	public void guardar(Mascota mascota) {
 		l.info("guardando mascota en PRODUCCION");
 		repository.save(mascota);
+	}
+	
+	
+	public List<Mascota> listaMascotas(){
+		List<Mascota> listaMasc = repository.listAllMascotas();
+		
+		return listaMasc;
 	}
 
 }

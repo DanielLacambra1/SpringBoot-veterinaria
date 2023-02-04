@@ -28,6 +28,8 @@ public class Dueño {
 	
 	@Override
 	public String toString() {
-		return "Dueño [nombre=" + nombre + ", dni=" + dni + "]";
+		return "Dueño [nombre=" + nombre + ", dni=" + dni + ", ChipMascota=" + mascota.getNumChip() + 
+			", NombreMascota=" + mascota.getNombre() + ", VacunaMascota=" + mascota.isVacunacion() + "]";
 	}
+	
 }

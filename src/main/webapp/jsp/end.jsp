@@ -6,14 +6,19 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>end</title>
-</head>
-<body>
-<div>usted ha terminado de trabajar</div>
-<div><c:out value="${student.name}"></c:out></div>
-<div>${student.name}</div>
-<div><c:out value="${student.surname}"></c:out></div>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>end</title>
+	</head>
+	<body>
+		<div>Elemento creado correctamente</div>
+		<br/><br/><br/>
+		<a href="/">Volver a inicio</a>
+
+		<!-- 
+		<div><c:out value="${student.name}"></c:out></div>
+		<div>${student.name}</div>
+		<div><c:out value="${student.surname}"></c:out></div> -->
+
+	</body>
 </html>

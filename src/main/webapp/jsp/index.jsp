@@ -2,6 +2,8 @@
     pageEncoding="ISO-8859-1"%>
 
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -34,8 +36,28 @@
 			<span>DNI:</span>
 			<form:input path="dni" type="text" name="dni"/>
 			
+			<form:select  path="mascota">
+    			<form:option value="NONE"> --SELECT--</form:option>
+    			<form:options items="${listaMascotas}"></form:options>
+		  	</form:select>
+			
+			<!-- 
+			<select id="listaMascotas">
+				<c:forEach items="${listaMascotas}" var="mascota">
+					<option value="${mascota.nombre}">${mascota.nombre} </option>
+				</c:forEach>
+			</select>
+			 -->
+			 
 			<input type="submit"/>
 		</form:form>
 		
+		
+		<br/><br/><br/>
+		<a href="listMascotas">Lista/Editar/Eliminar mascota</a>
+		
+		
 	</body>
 </html>
+
+

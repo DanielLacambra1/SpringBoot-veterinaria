@@ -24,8 +24,8 @@ public class ListRepositoryDueño implements RepositoryDueño {
 
 		list.forEach((d) -> System.out.println(d));
 		
-		
 	}
+	
 	
 	
 	
