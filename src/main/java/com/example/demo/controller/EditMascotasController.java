@@ -41,11 +41,12 @@ public class EditMascotasController {
 	@PostMapping("editNewMascotaForm")
 	public ModelAndView editMascota(@ModelAttribute("mascota") Mascota mascota) {
 		// faltan cosas
+		serviceMascota.guardar(mascota);
 		
-		ModelAndView modelAndView = new ModelAndView("end");
-		
-		return modelAndView;
-		
+		ModelAndView m = new ModelAndView("end");
+
+		m.addObject("addMascota", mascota);
+		return m;
 	}
 	
 }

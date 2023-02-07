@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
     
 <!DOCTYPE html>
 <html>
@@ -14,10 +15,19 @@
 		<br/><br/>
 		<h3>Editar mascota</h3> <br/><br/>
 		
-		<div> ${mascotaParaEditar.numChip}  </div> <br/>
-		<div> ${mascotaParaEditar.nombre}  </div>
-		
-		<!--  FORM  -->
+		<form:form action="editNewMascotaForm" method="post" modelAttribute="mascota">
+			<span>NumChip:</span>
+			<form:input path="numChip" type="number" name="numChip"/>
+			
+			<span>Nombre:</span>
+			<form:input path="nombre" type="text" name="nombre"/>
+			
+			<label for="vacunacion">Vacuna:</label>
+			<input type="radio" id="vacunacion" name="vacunacion" value="true">Si </input> 
+			<input type="radio" id="vacunacion" name="vacunacion" value="false">No </input> 
+			
+			<input type="submit"/>
+		</form:form>
 		
 		<br/><br/>
 		<a href="/">Volver a inicio</a>

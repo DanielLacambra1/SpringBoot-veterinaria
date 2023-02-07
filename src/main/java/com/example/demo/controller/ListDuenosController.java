@@ -8,29 +8,29 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.demo.model.Dueño;
-import com.example.demo.service.ServiceDueño;
+import com.example.demo.model.Dueno;
+import com.example.demo.service.ServiceDueno;
 
 @Controller
-public class ListDueñosController {
+public class ListDuenosController {
 
 	Logger l = org.apache.logging.log4j.LogManager.getLogger(IndexController.class);
 	public ServiceUser serviceuser;
-	public ServiceDueño serviceDueño;
+	public ServiceDueno serviceDueno;
 	
 	
 	@Autowired
-	public ListDueñosController(ServiceDueño serviceDueño, ServiceUser serviceUser) {
-		this.serviceDueño = serviceDueño;
+	public ListDuenosController(ServiceDueno serviceDueno, ServiceUser serviceUser) {
+		this.serviceDueno = serviceDueno;
 		this.serviceuser = serviceUser;
 	}
 	
-	@GetMapping("listDueños")
-	public ModelAndView goToListDueños() {
-		ModelAndView modelAndView = new ModelAndView("listDueños");
-		List<Dueño> listaDueños = serviceDueño.listaDueños();
+	@GetMapping("listDuenos")
+	public ModelAndView goToListDuenos() {
+		ModelAndView modelAndView = new ModelAndView("listDuenos");
+		List<Dueno> listaDuenos = serviceDueno.listaDuenos();
 		
-		modelAndView.addObject("listaDueños",listaDueños);
+		modelAndView.addObject("listaDuenos",listaDuenos);
 		
 		return modelAndView;
 	}
