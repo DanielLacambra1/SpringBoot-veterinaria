@@ -5,7 +5,7 @@ public class Mascota {
 	private int numChip;
 	private String nombre;
 	private boolean vacunacion;
-	
+
 
 	public Mascota(int numChip, String nombre, boolean vacunacion) {
 		this.numChip = numChip;

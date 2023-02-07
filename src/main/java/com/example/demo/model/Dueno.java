@@ -8,8 +8,17 @@ public class Dueno {
 
 	public String mascotaDescompuesta;
 
+	public String colorPiel;
 	
 	
+	public String getColorPiel() {
+		return colorPiel;
+	}
+
+	public void setColorPiel(String colorPiel) {
+		this.colorPiel = colorPiel;
+	}
+
 	public Dueno(String nombre, int dni, Mascota mascota) {
 		this.nombre = nombre;
 		this.dni = dni;
@@ -58,7 +67,7 @@ public class Dueno {
 	@Override
 	public String toString() {
 		return "Dueno [nombre=" + nombre + ", dni=" + dni + ", ChipMascota=" + mascota.getNumChip() + 
-			", NombreMascota=" + mascota.getNombre() + ", VacunaMascota=" + mascota.isVacunacion() + "]";
+			", NombreMascota=" + mascota.getNombre() + ", VacunaMascota=" + mascota.isVacunacion() + ", ColorPiel=" + colorPiel + "]";
 	}
 	
 }
