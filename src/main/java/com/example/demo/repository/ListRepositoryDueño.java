@@ -25,6 +25,13 @@ public class ListRepositoryDueño implements RepositoryDueño {
 		list.forEach((d) -> System.out.println(d));
 		
 	}
+
+	@Override
+	public List<Dueño> listAllDueños() {
+		List<Dueño> lista = list;
+		
+		return lista;
+	}
 	
 	
 	

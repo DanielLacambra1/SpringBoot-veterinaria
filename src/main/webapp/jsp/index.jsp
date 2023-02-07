@@ -54,8 +54,9 @@
 		
 		
 		<br/><br/><br/>
-		<a href="listMascotas">Lista/Editar/Eliminar mascota</a>
-		
+		<a href="listMascotas">Lista/Editar/Eliminar mascotas</a>	 <!-- ListMascotaController -->
+		<br/><br/>
+		<a href="listDueños">Lista/Editar/Eliminar dueños</a>	<!-- ListDueñoController -->
 		
 	</body>
 </html>

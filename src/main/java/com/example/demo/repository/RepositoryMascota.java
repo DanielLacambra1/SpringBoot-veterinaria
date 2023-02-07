@@ -9,4 +9,8 @@ public interface RepositoryMascota {
 	void save(Mascota mascota);
 	
 	List<Mascota> listAllMascotas();
+	
+	void delete(int numchip);
+	
+	Mascota cogerMascotaPorNumChip(int numchip);
 }

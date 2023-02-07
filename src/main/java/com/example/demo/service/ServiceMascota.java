@@ -9,4 +9,10 @@ public interface ServiceMascota {
 	void guardar(Mascota mascota);
 	
 	List<Mascota> listaMascotas();
+	
+	void eliminar(int numchip);
+	
+	Mascota cogerMascotaPorNumChip(int numchip);
+	
+	
 }

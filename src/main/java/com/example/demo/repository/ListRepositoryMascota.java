@@ -26,6 +26,7 @@ public class ListRepositoryMascota implements RepositoryMascota  {
 		
 	}
 	
+	
 	// método para listar todas las mascotas
 	public List<Mascota> listAllMascotas(){
 		List<Mascota> lista = list;
@@ -33,5 +34,29 @@ public class ListRepositoryMascota implements RepositoryMascota  {
 		return lista;
 	}
 
+	
+	// Eliminar mascota por numChip
+	@Override
+	public void delete(int numchip) {
+		for(int i = 0; i < list.size(); i++) {
+			if(list.get(i).getNumChip() == numchip)
+				list.remove(i);
+		}
+	}
+
+
+	// Coger objeto mascota a partir del numChip
+	@Override
+	public Mascota cogerMascotaPorNumChip(int numchip) {
+		Mascota mascota = new Mascota();
+		for(int i = 0; i < list.size(); i++) {
+			if(list.get(i).getNumChip() == numchip)
+				mascota = list.get(i);
+		}
+		
+		return mascota;
+	}
+
+	
 	
 }

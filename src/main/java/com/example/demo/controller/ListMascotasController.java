@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.example.demo.model.Mascota;
@@ -37,5 +38,15 @@ public class ListMascotasController {
 		
 		return modelAndView;
 	}
+	
+	// Eliminar mascota
+	@GetMapping("/deleteMascota")
+	public ModelAndView deleteMascota(@RequestParam("numChip") int numChip) {
+		serviceMascota.eliminar(numChip);
+		ModelAndView modelAndView = new ModelAndView("deleteMascota");
+		
+		return modelAndView;
+	}
+	
 	
 }

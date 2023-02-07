@@ -18,6 +18,7 @@
 				<th scope="col">NumChip</th>
 				<th scope="col">Nombre mascota</th>
 				<th scope="col">Vacuna</th>
+				<th scope="col">Editar</th>
 			 	<th scope="col">Eliminar</th>
 			</tr>
 			<c:forEach var="mascota" items="${listaMascotas}">
@@ -25,7 +26,8 @@
 					<td> <c:out value="${mascota.numChip}" /> </td>
 					<td> <c:out value="${mascota.nombre}" /> </td>
 					<td> <c:out value="${mascota.vacunacion}" /> </td>
-				 	<td> <a href="/eliminarMascota?numChip=${mascota.numChip}"><input type="button" value="Eliminar"></a> </td> 
+					<td> <a href="/editMascota?numChip=${mascota.numChip}"><input type="button" value="Editar"></a> </td> 
+				 	<td> <a href="/deleteMascota?numChip=${mascota.numChip}"><input type="button" value="Eliminar"></a> </td> 
 				</tr>
 			</c:forEach>
 		</table>

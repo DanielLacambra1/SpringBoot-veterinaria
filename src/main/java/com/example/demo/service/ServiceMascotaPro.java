@@ -34,4 +34,19 @@ public class ServiceMascotaPro implements ServiceMascota{
 		return listaMasc;
 	}
 
+
+	@Override
+	public void eliminar(int numchip) {
+		l.info("eliminando mascota de la lista");
+		repository.delete(numchip);
+	}
+
+
+	@Override
+	public Mascota cogerMascotaPorNumChip(int numchip) {
+		Mascota mascota = repository.cogerMascotaPorNumChip(numchip);
+		
+		return mascota;
+	}
+
 }
